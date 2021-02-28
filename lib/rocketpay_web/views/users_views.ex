@@ -11,11 +11,4 @@ defmodule RocketpayWeb.UsersView do
       }
     }
   end
-
-  def render("create_error.json", result) do
-    %{
-      message: "Deu ruim",
-      result: result
-    }
-  end
 end
