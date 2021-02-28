@@ -36,6 +36,4 @@ defmodule Rocketpay.Users.Create do
       {:ok, %{preload_data: user}} -> {:ok, user}
     end
   end
-
-
 end
